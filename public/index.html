@@ -1,0 +1,24 @@
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+<button onclick="printMyFingerPrint()">print</button>
+    <script src="/bower_components/fingerprintjs2/dist/fingerprint2.min.js"></script>
+
+    <script type="text/javascript">
+
+    function printMyFingerPrint() {
+        new Fingerprint2().get(function(result, components) {
+            console.log(result); //a hash, representing your device fingerprint
+            console.log(components); // an array of FP components
+        });
+
+    }
+    </script>
+</body>
+
+</html>

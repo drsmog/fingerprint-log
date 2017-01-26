@@ -1,0 +1,20 @@
+{
+  "name": "fingerprint-log",
+  "description": "fingerprint logger",
+  "main": "index.js",
+  "authors": [
+    "irakli svanidze <irakli1393@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/drsmog/fingerprint-log",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "fingerprintjs2": "1.4.4"
+  }
+}
